@@ -29,7 +29,7 @@
             <input
               type="text"
               pattern="-?\d{1,3}\.\d*, -?\d{1,3}\.\d*"
-              value="37.439544, 24.940168"
+              value="37.4330655, 24.9349735"
               id="formParking"
               name="formParking"
               placeholder="e.g. 12.3456, 123.4567"
@@ -176,7 +176,7 @@
           if (
             (calcPercent(markers[i].Ultrasonic) > formBin ||
               formAdd.includes(markers[i].ID)) &&
-            !formRemove.includes(markers[i].id)
+            !formRemove.includes(markers[i].ID)
           ) {
             jobs.push({
               id: markers[i].ID,
